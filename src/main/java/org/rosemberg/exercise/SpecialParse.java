@@ -1,4 +1,4 @@
-package org.rosemberg.test;
+package org.rosemberg.exercise;
 
 import java.util.ArrayList;
 import java.util.HashSet;
