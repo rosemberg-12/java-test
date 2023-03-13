@@ -37,8 +37,8 @@ public class SpecialParse {
 
             sb.append(letters[i++]);
 
-            for(;i<letters.length && letters[i]!=' ';i++)
-                sb.append(letters[i]);
+            while(i<letters.length && letters[i]!=' ')
+                sb.append(letters[i++]);
 
             words.add(sb.toString());
 
